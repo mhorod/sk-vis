@@ -185,7 +185,7 @@ class App {
         this.clearBtn.addEventListener("click", () => this.update(new Tree("")))
         this.stepBtn.addEventListener("click", () => this.step())
 
-        this.patterns = [[K_PATTERN, K_TREE], [S_PATTERN, S_TREE], [I_PATTERN, I_TREE]]
+        this.patterns = [[K_PATTERN, K_TREE], [S_PATTERN, S_TREE]]
     }
 
     setMode(mode) {
