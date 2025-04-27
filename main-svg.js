@@ -70,7 +70,7 @@ class Tree {
         if (this.isLeaf()) {
             return this.label;
         } else {
-            return `(${this.left.expression()})(${this.right.expression()})`
+            return `(${this.left.expression()}${this.right.expression()})`
         }
     }
 
